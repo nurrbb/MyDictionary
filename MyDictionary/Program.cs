@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MyDictionary
 {
@@ -6,7 +7,17 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dictionary<int, string> BlackList = new Dictionary<int, string>();
+            BlackList.Add(001, "Elizabeth Keen");
+            BlackList.Add(004, "Mr.Kaplan");
+            BlackList.Add(007, "Tom Keen");
+            BlackList.Add(0010, "Dembe Zumba");
+
+            BlackList.Add(000, "Raymond Reddington");
+
+
+
+
         }
     }
 }
